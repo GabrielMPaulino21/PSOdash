@@ -13,7 +13,7 @@ st.set_page_config(
 # --- Carregamento e Preparação dos Dados ---
 @st.cache_data
 def carregar_dados():
-    caminho_do_arquivo = r"C:\PSO\SISTEMA PSO.xlsx"
+    caminho_do_arquivo = "SISTEMA PSO.xlsx"
     colunas_responsaveis = [
         'Engineering', 'Information Technology', 'Qtech', 
         'Maintenance', 'Safety', 'Finance', 'Environment'
